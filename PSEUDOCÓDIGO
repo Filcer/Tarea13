@@ -1,6 +1,6 @@
 /*
  * Daniel Ponce de León Súchil
- * Filtzer Gorbach Gabriel
+ * Gabriel Filtzer Gorbach
  */
 
 
@@ -11,3 +11,27 @@
  * Tiene que estar hecho para una numero de 'n' digitos.
  */
 
+int main(){
+    std::list lista1
+    std::list lista2
+    // Se agregan valores a las listas...
+
+    int num1 = 0
+    int num2 = 0
+
+    for (int i = 1 ; !lista1.isEmpty() ; i*= 10) {
+        num1+= lista1.pop_back()
+    }
+    for (int i = 1 ; !lista2.isEmpty() ; i*= 10) {
+        num2+= lista2.pop_back()
+    }
+    int res = num1 + num2
+    std::string cadena = std::to_string(res) //C++11
+
+    std::list listaRes
+    for (int i = 0 ; !cadena.isEmpty() ; i++)
+    {
+        listaRes.push:back(cadena[i])
+    }
+    // :D
+}
