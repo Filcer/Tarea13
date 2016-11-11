@@ -1,4 +1,13 @@
-/* Se tienen 2 numeros en listas diferentes donde en cada nodo de la lista se encuentra un digito.
-Los digitos estan ordenados en orden inverso al numero.
-Hay que escribir un codigo que pase esos numeros a cadenas, los sume, y devuelva el resultado en una lista (orden inverso tambien).
-Tiene que estar hecho para una numero de 'n' digitos.*/
+/*
+ * Daniel Ponce de León Súchil
+ * Filtzer Gorbach Gabriel
+ */
+
+
+/* Se tienen 2 numeros en listas diferentes donde en cada nodo de la lista se
+ * encuentra un digito. Los digitos estan ordenados en orden inverso al numero.
+ * Hay que escribir un codigo que pase esos numeros a cadenas, los sume,
+ * y devuelva el resultado en una lista (orden inverso tambien).
+ * Tiene que estar hecho para una numero de 'n' digitos.
+ */
+
